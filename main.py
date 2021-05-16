@@ -46,5 +46,5 @@ def get_today_event():
 			)
 			send_email_gmail(['stanleyserbin@gmail.com'], msg.replace("’", "'"))
 
-#get_event_and_store_it()
+get_event_and_store_it()
 get_today_event()
