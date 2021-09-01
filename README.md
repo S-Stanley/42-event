@@ -12,6 +12,7 @@ Get a daily summary of 42 events for the next week, directly in your inbox
 SMTP: Your smtp
 EMAIL_SMTP
 PASSWORD_SMTP
+SMTP_PORT
 INTRA_URL
 PARIS_ID: Your campus ID
 CLIENT_ID

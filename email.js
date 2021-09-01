@@ -25,7 +25,7 @@ function get_events(){
 async function send_email(content) {
 	let transporter = nodemailer.createTransport({
 		host: process.env.SMTP,
-		port: 465,
+		port: process.env.SMTP_PORT,
 		auth: {
 			user: process.env.EMAIL_SMTP,
 			pass: process.env.PASSWORD_SMTP,
