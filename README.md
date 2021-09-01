@@ -20,5 +20,5 @@ STATE
 MYEMAIL: The email destination
 ```
 
-**Ressources**. 
+**Ressources**<br/>
 API doc: https://api.intra.42.fr/apidoc
