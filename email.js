@@ -33,8 +33,8 @@ async function send_email(content) {
 	});
 
 	let info = await transporter.sendMail({
-		from: "stanleyserbin@gmail.com",
-		to: "stanleyserbin@gmail.com",
+		from: process.env.EMAIL_SMTP,
+		to: process.env.MYEMAIL,
 		subject: "Events 42 of the week",
 		text: content,
 	});
