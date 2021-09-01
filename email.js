@@ -24,7 +24,7 @@ function get_events(){
 
 async function send_email(content) {
 	let transporter = nodemailer.createTransport({
-		host: "smtp.gmail.com",
+		host: process.env.SMTP,
 		port: 465,
 		auth: {
 			user: process.env.EMAIL_SMTP,

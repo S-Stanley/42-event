@@ -9,6 +9,7 @@ Get a daily summary of 42 events for the next week, directly in your inbox
 
 
 ```shell
+SMTP: Your smtp
 EMAIL_SMTP
 PASSWORD_SMTP
 INTRA_URL
