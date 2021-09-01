@@ -2,7 +2,7 @@ Get a daily summary of 42 events for the next week, directly in your inbox
 
 **crontab**
 ```shell
-15 11 * * *  [PWD]/bash start.sh
+15 11 * * *  cd [path to repository] && bash start.sh
 ```
 
 **Environment variables:**
@@ -21,5 +21,5 @@ STATE
 MYEMAIL: The email destination
 ```
 
-**Ressources**
+**Ressources**<br/>
 API doc: https://api.intra.42.fr/apidoc
