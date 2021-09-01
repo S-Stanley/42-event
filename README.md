@@ -1,4 +1,4 @@
-Get a daily summary of 42 events for the next week
+Get a daily summary of 42 events for the next week, directly in your inbox
 
 crontab
 ```shell
