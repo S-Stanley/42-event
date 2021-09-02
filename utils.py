@@ -100,4 +100,4 @@ def get_all_participants(access_token: str, event_id: str):
 		return (req.json())
 	except Exception as e:
 		print(e)
-		return Fals
+		return False
